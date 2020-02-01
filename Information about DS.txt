@@ -1,0 +1,127 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Jan 29 19:59:35 2020
+
+@author: Tushar Saxena
+"""
+
+
+A DS is a way of organizing data so that it can be used effectively.
+
+Essential ingredients in creating fast and powerful algos.
+Help manage and organize data
+make code cleaner and easier to understand
+
+Abstract data type(ADT): no specific details about how something should be implemented or in what programming language.
+Types of ADT:
+
+Abstraction |   Implementation(DS)
+LIST        |     Dynamic Array
+            |     Linked List
+----------------------------------
+Queue       |     LL based
+            |     Array based
+            |     Stack based
+----------------------------------
+Map         |     Tree Map
+            |     Hash Map/ Hash Table
+----------------------------------
+vehicle     |     GolfCart
+            |     Bike
+            |     Car
+
+Big-O Notation: upper bound of the complexity in the worst case.
+
+################################################################
+n - The size of the input
+
+Complexities from largest to shortest:
+1 Constant Time      | O(1)
+2 Log Time           | O(log(n))
+3 Linear Time        | O(n)
+4 Linerarithmic Time | O(nlog(n))
+5 Quadric Time       | O(n^2)
+6 Cubic Time         | O(n^3)
+7 Exponential Time   | O(b^n) , b > 1
+8 Factorial Time     | O(n!)
+################################################################
+
+Big-O Props:
+
+O(n + c) = O(n)
+O(nc) = O(n), c>0
+
+case                        #       O()
+Subsets in a set            #       2^n
+Perm of a string            #       n!
+Sort mergesort              #       nlong(n)
+all cells in a matrix       #       mn
+
+
+Arrays: 
+Static:
+>Contiguous
+>fixed length
+>Uses - Storing and accessing sequencial data 
+      - Temp storing objs
+      - IO routines as buffers
+      - Lookup tables and inv Lookup tables
+      - return multi values from a function
+      - in dynamic programming to cache answers to subroutines.
+
+################################################################
+Dynamic
+((SA>> Static Array))
+>Implementation - 1: Using static array => Create a SA with initial cap
+                                        => Add elements and keep track of number of elements
+                                        => If elements exceeds create a static array of 2x size and copy oriaginal array.
+                - 2: 
+################################################################
+>Complexities - Access: 1   #   1
+              - Search: n   #   n
+              - Insert: NA  #   n
+              - Append: NA  #   1
+              - Delete: NA  #   n
+              
+
+        |-------> P
+    ####|#################              
+    #   |                #--------->NP
+    #   |                #
+    # ##|##         #############################
+    # # | #         #   #                       #
+    # # | #         #   #                       #
+    # # | #         #   #                       #-------->NP-HARD
+    # # | #         #   #                       #
+    # #   #         #   #                       #
+    # #####         # | #                       #
+    #               # | #                       #  
+    #               ##|##########################
+    #                 | #
+    #                 |----------> NP Complete
+    #                   #
+    #####################
+
+
+Classes of Algos:
+    >Divide and Conquer
+    >Dynamic Programming
+    >Greedy Algos
+    
+Tree Traversal Algos:
+    >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+             
